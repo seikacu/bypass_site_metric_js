@@ -1,0 +1,27 @@
+{
+    "name": "bypass_site_metric_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/seikacu/bypass_site_metric_js.git"
+    },
+    "author": "neoxak",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/seikacu/bypass_site_metric_js/issues"
+    },
+    "homepage": "https://github.com/seikacu/bypass_site_metric_js#readme",
+    "dependencies": {
+        "puppeteer": "^22.3.0",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-stealth": "^2.11.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.20"
+    }
+}
