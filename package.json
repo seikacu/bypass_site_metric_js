@@ -17,11 +17,15 @@
     },
     "homepage": "https://github.com/seikacu/bypass_site_metric_js#readme",
     "dependencies": {
+        "dateformat": "^5.0.3",
+        "lodash": "^4.17.21",
         "puppeteer": "^22.3.0",
         "puppeteer-extra": "^3.3.6",
-        "puppeteer-extra-plugin-stealth": "^2.11.2"
+        "puppeteer-extra-plugin-stealth": "^2.11.2",
+        "sleep-promise": "^9.1.0"
     },
     "devDependencies": {
-        "@types/node": "^20.11.20"
+        "@types/node": "^20.11.20",
+        "prettier": "3.2.5"
     }
 }
